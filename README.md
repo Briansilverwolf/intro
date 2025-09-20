@@ -24,12 +24,6 @@ Software Developer | Systems Architecture | Python
 - **Project Recreation**: Rebuild projects from structure + content files
 - **Package Management**: Programmatic pip/npm installation wrapper
 
-**Advanced Feature -Impact Analyzer**:
-- Parses Git commit history to identify changed files
-- Builds dependency graphs via Python AST analysis
-- Maps test files to source modules through import relationships
-- Determines minimal test suite for code changes
-
 
 **Technical Implementation**:
 ```bash
@@ -55,13 +49,6 @@ filesystemtool.create_structure_from_file(
     structure_file="blueprint.txt",
     project_root="./new-project"
 )
-
-# CI/CD Analysis
-from filesystemtool.src.ci_cd_analyzer import CICDAnalyzer
-analyzer = CICDAnalyzer(project_root=".")
-changed_files = analyzer.get_changed_files('HEAD~1..HEAD')
-impacted_tests = analyzer.get_impacted_tests(changed_files)
-job_suggestions = analyzer.suggest_jobs_to_run(changed_files)
 ```
 
 **Configuration System**:
