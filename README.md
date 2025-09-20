@@ -7,7 +7,7 @@ Software Developer | Systems Architecture | Python
 ## Technical Stack
 
 **Languages**: Python (primary), JavaScript, HTML, YAML  
-**Tools**: Git, CLI frameworks, AST parsing, CI/CD systems  
+**Tools**: Git, CLI frameworks, AST parsing
 **Focus**: Developer productivity tools, automation, system optimization
 
 ---
@@ -24,13 +24,12 @@ Software Developer | Systems Architecture | Python
 - **Project Recreation**: Rebuild projects from structure + content files
 - **Package Management**: Programmatic pip/npm installation wrapper
 
-**Advanced Feature - CI/CD Impact Analyzer**:
+**Advanced Feature -Impact Analyzer**:
 - Parses Git commit history to identify changed files
 - Builds dependency graphs via Python AST analysis
 - Maps test files to source modules through import relationships
 - Determines minimal test suite for code changes
-- Analyzes GitHub workflow YAML for CI job optimization
-- **Result**: Significant reduction in unnecessary CI executions
+
 
 **Technical Implementation**:
 ```bash
@@ -91,7 +90,6 @@ job_suggestions = analyzer.suggest_jobs_to_run(changed_files)
 
 ### System Architecture
 - **Dependency Graphs**: Module relationship mapping, impact analysis algorithms
-- **CI/CD Optimization**: Pipeline efficiency analysis, test selection algorithms  
 - **Project Templates**: Scaffolding systems, blueprint standardization
 - **Configuration Management**: Settings abstraction, environment handling
 - **Workflow Automation**: Process standardization, manual task elimination
@@ -113,7 +111,6 @@ job_suggestions = analyzer.suggest_jobs_to_run(changed_files)
 - **Consistency Enforcement**: Standardized project layouts across teams
 
 ### Organizational Impact
-- **Cost Reduction**: Decreased CI/CD compute time through intelligent job selection
 - **Onboarding Efficiency**: Reproducible project structures for new developers
 - **Technical Debt Management**: Clear architectural documentation and recreation capabilities
 - **Process Standardization**: Unified workflows across development lifecycle
@@ -122,7 +119,7 @@ job_suggestions = analyzer.suggest_jobs_to_run(changed_files)
 - **Legacy Project Documentation**: Extract and preserve existing codebase structures
 - **Multi-Environment Deployment**: Consistent project recreation across environments
 - **Team Collaboration**: Shareable project blueprints with embedded documentation
-- **CI Pipeline Optimization**: Data-driven test selection for large codebases
+
 
 ---
 
@@ -132,7 +129,6 @@ job_suggestions = analyzer.suggest_jobs_to_run(changed_files)
 - Enhanced dependency analysis algorithms for complex Python projects
 - Integration with additional version control systems beyond Git
 - Extended language support for AST parsing (JavaScript, TypeScript)
-- Machine learning applications for predictive CI optimization
 - Workflow intelligence systems for development process improvement
 
 **Research Interests**:
